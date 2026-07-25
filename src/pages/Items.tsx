@@ -56,6 +56,7 @@ export default function Items() {
   const [bulkTemplate, setBulkTemplate] = useState<Template | null>(null)
   const [bulkConfig, setBulkConfig] = useState('')
   const [showBulkModal, setShowBulkModal] = useState(false)
+  const [bulkCopied, setBulkCopied] = useState(false)
   const [visibleCount, setVisibleCount] = useState(PAGE_SIZE)
   const [expandedCategories, setExpandedCategories] = useState<Set<string>>(new Set())
   const [showScrollTop, setShowScrollTop] = useState(false)
@@ -200,14 +201,34 @@ export default function Items() {
     setTimeout(() => setCopiedState(null), 2000)
   }
 
-  const openBulkConfig = (template: Template) => {
+  const copyToClipboard = async (text: string) => {
+    try {
+      await navigator.clipboard.writeText(text)
+      return true
+    } catch {
+      // fallback for non-secure context
+      const el = document.createElement('textarea')
+      el.value = text
+      el.style.position = 'fixed'
+      el.style.opacity = '0'
+      document.body.appendChild(el)
+      el.select()
+      const ok = document.execCommand('copy')
+      document.body.removeChild(el)
+      return ok
+    }
+  }
+
+  const openBulkConfig = async (template: Template) => {
     const items = filtered.filter(i => selectedIds.has(i.id))
     const config = items.map(item => buildConfig(item, template)).join('\n\n')
     setBulkConfig(config)
     setBulkTemplate(template)
+    setBulkCopied(false)
     setShowBulkModal(true)
     setShowBulkDropdown(false)
-    navigator.clipboard.writeText(config).catch(() => {})
+    const ok = await copyToClipboard(config)
+    setBulkCopied(ok)
   }
 
   const selectedCount = selectedIds.size
@@ -221,7 +242,7 @@ export default function Items() {
       <PageHeader title="Item Images" />
 
       <div className="flex-1 flex w-full px-6 md:px-8 gap-6">
-        {/* Left sidebar — sticky filters */}
+        {/* Left sidebar - sticky filters */}
         <aside className="w-56 flex-shrink-0">
           <div className="sticky top-20 space-y-4 py-6 max-h-[calc(100vh-5rem)] overflow-y-auto pr-1">
             {/* Game toggle */}
@@ -621,9 +642,9 @@ export default function Items() {
                 <div className="flex items-center gap-2">
                   <Package size={16} className="text-zinc-400" />
                   <h2 className="text-sm font-medium text-zinc-100">
-                    {bulkTemplate?.toUpperCase()} config — {selectedCount} items
+                    {bulkTemplate?.toUpperCase()} config for {selectedCount} items
                   </h2>
-                  <span className="text-xs text-emerald-400">Copied to clipboard!</span>
+                  {bulkCopied && <span className="text-xs text-emerald-400">Copied to clipboard!</span>}
                 </div>
                 <button onClick={() => setShowBulkModal(false)} className="p-1 text-zinc-500 hover:text-zinc-300">
                   <X size={18} />
@@ -637,11 +658,11 @@ export default function Items() {
               />
               <div className="flex justify-end gap-2 p-3 border-t border-zinc-800">
                 <button
-                  onClick={() => navigator.clipboard.writeText(bulkConfig)}
+                  onClick={async () => { const ok = await copyToClipboard(bulkConfig); setBulkCopied(ok) }}
                   className="px-4 py-2 text-sm font-medium bg-zinc-800 hover:bg-zinc-700 text-zinc-100 rounded-lg transition-all inline-flex items-center gap-2"
                 >
                   <Copy size={14} />
-                  Copy again
+                  {bulkCopied ? 'Copied!' : 'Copy to clipboard'}
                 </button>
                 <button
                   onClick={() => setShowBulkModal(false)}
