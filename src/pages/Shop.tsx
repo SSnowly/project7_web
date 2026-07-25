@@ -677,6 +677,7 @@ export default function Shop() {
                                       {editMode ? (
                                         <>
                                           <input type="text" value={key} onChange={e => {
+                                            const shopId = selectedShop
                                             setShops(prev => {
                                               const updated = { ...prev }
                                               const inv = [...updated[shopId].inventory]
