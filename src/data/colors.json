@@ -1,0 +1,502 @@
+[
+  {
+    "id": "0",
+    "color": "#fefefe",
+    "name": "White"
+  },
+  {
+    "id": "1",
+    "color": "#e03232",
+    "name": "Red"
+  },
+  {
+    "id": "2",
+    "color": "#71cb71",
+    "name": "Green"
+  },
+  {
+    "id": "2 (enemy)",
+    "color": "#e03232",
+    "name": "Red"
+  },
+  {
+    "id": "2 (friendly)",
+    "color": "#5db6e5",
+    "name": "Blue"
+  },
+  {
+    "id": "3",
+    "color": "#5db6e5",
+    "name": "Blue"
+  },
+  {
+    "id": "3 (enemy)",
+    "color": "#e03232",
+    "name": "Red"
+  },
+  {
+    "id": "4",
+    "color": "#fefefe",
+    "name": "White"
+  },
+  {
+    "id": "4 (enemy)",
+    "color": "#e03232",
+    "name": "Red"
+  },
+  {
+    "id": "4 (friendly)",
+    "color": "#5db6e5",
+    "name": "Blue"
+  },
+  {
+    "id": "5",
+    "color": "#eec64e",
+    "name": "Yellow"
+  },
+  {
+    "id": "5 (enemy)",
+    "color": "#e03232",
+    "name": "Red"
+  },
+  {
+    "id": "5 (friendly)",
+    "color": "#5db6e5",
+    "name": "Blue"
+  },
+  {
+    "id": "6",
+    "color": "#c25050",
+    "name": "Light Red"
+  },
+  {
+    "id": "7",
+    "color": "#9c6eaf",
+    "name": "Violet"
+  },
+  {
+    "id": "8",
+    "color": "#fe7ac3",
+    "name": "Pink"
+  },
+  {
+    "id": "9",
+    "color": "#f59d79",
+    "name": "Light Orange"
+  },
+  {
+    "id": "10",
+    "color": "#b18f83",
+    "name": "Light Brown"
+  },
+  {
+    "id": "11",
+    "color": "#8dcea7",
+    "name": "Light Green"
+  },
+  {
+    "id": "12",
+    "color": "#70a8ae",
+    "name": "Light Blue"
+  },
+  {
+    "id": "13",
+    "color": "#d3d1e7",
+    "name": "Light Purple"
+  },
+  {
+    "id": "14",
+    "color": "#8f7e98",
+    "name": "Dark Purple"
+  },
+  {
+    "id": "15",
+    "color": "#6ac4bf",
+    "name": "Cyan"
+  },
+  {
+    "id": "16",
+    "color": "#d5c398",
+    "name": "Light Yellow"
+  },
+  {
+    "id": "17",
+    "color": "#ea8e50",
+    "name": "Orange"
+  },
+  {
+    "id": "18",
+    "color": "#97cae9",
+    "name": "Light Blue"
+  },
+  {
+    "id": "19",
+    "color": "#b26287",
+    "name": "Dark Pink"
+  },
+  {
+    "id": "20",
+    "color": "#8f8d79",
+    "name": "Dark Yellow"
+  },
+  {
+    "id": "21",
+    "color": "#a6755e",
+    "name": "Dark Orange"
+  },
+  {
+    "id": "22",
+    "color": "#afa8a8",
+    "name": "Light Gray"
+  },
+  {
+    "id": "23",
+    "color": "#e78d9a",
+    "name": "Light Pink"
+  },
+  {
+    "id": "24",
+    "color": "#bbd65b",
+    "name": "Lemon Green"
+  },
+  {
+    "id": "25",
+    "color": "#0c7b56",
+    "name": "Forest Green"
+  },
+  {
+    "id": "26",
+    "color": "#7ac3fe",
+    "name": "Electric Blue"
+  },
+  {
+    "id": "27",
+    "color": "#ab3ce6",
+    "name": "Bright Purple"
+  },
+  {
+    "id": "28",
+    "color": "#cda80c",
+    "name": "Dark Yellow"
+  },
+  {
+    "id": "29",
+    "color": "#4561ab",
+    "name": "Dark Blue"
+  },
+  {
+    "id": "30",
+    "color": "#29a5b8",
+    "name": "Dark Cyan"
+  },
+  {
+    "id": "31",
+    "color": "#b89b7b",
+    "name": "Light Brown"
+  },
+  {
+    "id": "32",
+    "color": "#c8e0fe",
+    "name": "Light Blue"
+  },
+  {
+    "id": "33",
+    "color": "#f0f096",
+    "name": "Light Yellow"
+  },
+  {
+    "id": "34",
+    "color": "#ed8ca1",
+    "name": "Light Pink"
+  },
+  {
+    "id": "35",
+    "color": "#f98a8a",
+    "name": "Light Red"
+  },
+  {
+    "id": "36",
+    "color": "#fbeea5",
+    "name": "Beige"
+  },
+  {
+    "id": "37",
+    "color": "#fefefe",
+    "name": "White"
+  },
+  {
+    "id": "38",
+    "color": "#2c6db8",
+    "name": "Blue"
+  },
+  {
+    "id": "39",
+    "color": "#9a9a9a",
+    "name": "Light Gray"
+  },
+  {
+    "id": "40",
+    "color": "#4c4c4c",
+    "name": "Dark Gray"
+  },
+  {
+    "id": "41",
+    "color": "#F29D9D",
+    "name": "Pink Red"
+  },
+  {
+    "id": "42",
+    "color": "#6CB7D6",
+    "name": "Blue"
+  },
+  {
+    "id": "43",
+    "color": "#AFEDAE",
+    "name": "Light Green"
+  },
+  {
+    "id": "44",
+    "color": "#FFA75F",
+    "name": "Light Orange"
+  },
+  {
+    "id": "45",
+    "color": "#F1F1F1",
+    "name": "White"
+  },
+  {
+    "id": "46",
+    "color": "#ECF029",
+    "name": "Gold"
+  },
+  {
+    "id": "47",
+    "color": "#FF9A18",
+    "name": "Orange"
+  },
+  {
+    "id": "48",
+    "color": "#F644A5",
+    "name": "Brilliant Rose"
+  },
+  {
+    "id": "49",
+    "color": "#E03A3A",
+    "name": "Red"
+  },
+  {
+    "id": "49 (friendly)",
+    "color": "#5db6e5",
+    "name": "Blue"
+  },
+  {
+    "id": "50",
+    "color": "#8A6DE3",
+    "name": "Medium Purple"
+  },
+  {
+    "id": "51",
+    "color": "#FF8B5C",
+    "name": "Salmon"
+  },
+  {
+    "id": "52",
+    "color": "#416C41",
+    "name": "Dark Green"
+  },
+  {
+    "id": "53",
+    "color": "#B3DDF3",
+    "name": "Blizzard Blue"
+  },
+  {
+    "id": "54",
+    "color": "#3A6479",
+    "name": "Oracle Blue"
+  },
+  {
+    "id": "55",
+    "color": "#A0A0A0",
+    "name": "Silver"
+  },
+  {
+    "id": "56",
+    "color": "#847232",
+    "name": "Brown"
+  },
+  {
+    "id": "57",
+    "color": "#65B9E7",
+    "name": "Blue"
+  },
+  {
+    "id": "58",
+    "color": "#4B4175",
+    "name": "East Bay"
+  },
+  {
+    "id": "59",
+    "color": "#E13B3B",
+    "name": "Red"
+  },
+  {
+    "id": "60",
+    "color": "#F0CB58",
+    "name": "Yellow Orange"
+  },
+  {
+    "id": "61",
+    "color": "#CD3F98",
+    "name": "Mulberry Pink"
+  },
+  {
+    "id": "62",
+    "color": "#CFCFCF",
+    "name": "Alto Gray"
+  },
+  {
+    "id": "63",
+    "color": "#276A9F",
+    "name": "Jelly Bean Blue"
+  },
+  {
+    "id": "64",
+    "color": "#D87B1B",
+    "name": "Dark Orange"
+  },
+  {
+    "id": "65",
+    "color": "#8E8393",
+    "name": "Mamba"
+  },
+  {
+    "id": "66",
+    "color": "#F0CB57",
+    "name": "Yellow Orange"
+  },
+  {
+    "id": "66 (enemy)",
+    "color": "#e03232",
+    "name": "Red"
+  },
+  {
+    "id": "66 (friendly)",
+    "color": "#5db6e5",
+    "name": "Blue"
+  },
+  {
+    "id": "67",
+    "color": "#65B9E7",
+    "name": "Blue"
+  },
+  {
+    "id": "67 (enemy)",
+    "color": "#e03232",
+    "name": "Red"
+  },
+  {
+    "id": "68",
+    "color": "#65B9E7",
+    "name": "Blue"
+  },
+  {
+    "id": "68 (enemy)",
+    "color": "#e03232",
+    "name": "Red"
+  },
+  {
+    "id": "69",
+    "color": "#79CD79",
+    "name": "Green"
+  },
+  {
+    "id": "69 (enemy)",
+    "color": "#e03232",
+    "name": "Red"
+  },
+  {
+    "id": "69 (friendly)",
+    "color": "#5db6e5",
+    "name": "Blue"
+  },
+  {
+    "id": "70",
+    "color": "#EFCA57",
+    "name": "Yellow Orange"
+  },
+  {
+    "id": "71",
+    "color": "#EFCA57",
+    "name": "Yellow Orange"
+  },
+  {
+    "id": "72",
+    "color": "#3D3D3D",
+    "name": "Transparent Black"
+  },
+  {
+    "id": "73",
+    "color": "#EFCA57",
+    "name": "Yellow Orange"
+  },
+  {
+    "id": "74",
+    "color": "#65B9E7",
+    "name": "Blue"
+  },
+  {
+    "id": "75",
+    "color": "#e03232",
+    "name": "Red"
+  },
+  {
+    "id": "76",
+    "color": "#782323",
+    "name": "Deep red"
+  },
+  {
+    "id": "77",
+    "color": "#65B9E7",
+    "name": "Blue"
+  },
+  {
+    "id": "78",
+    "color": "#3A6479",
+    "name": "Oracle Blue"
+  },
+  {
+    "id": "79",
+    "color": "#e03232",
+    "name": "Transparent Red"
+  },
+  {
+    "id": "80",
+    "color": "#65B9E7",
+    "name": "Transparent Blue"
+  },
+  {
+    "id": "81",
+    "color": "#F2A40C",
+    "name": "Orange"
+  },
+  {
+    "id": "82",
+    "color": "#A4CCAA",
+    "name": "Light Green"
+  },
+  {
+    "id": "83",
+    "color": "#A854F2",
+    "name": "Purple"
+  },
+  {
+    "id": "84",
+    "color": "#65B9E7",
+    "name": "Blue"
+  },
+  {
+    "id": "85",
+    "color": "#3D3D3D",
+    "name": "Transparent Black"
+  }
+]
